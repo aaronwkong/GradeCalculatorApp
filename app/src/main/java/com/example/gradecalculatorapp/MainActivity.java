@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView navView = findViewById(R.id.nav_view);
         mTextMessage = findViewById(R.id.message);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-        EditText et = (EditText) findViewById(R.id.editText2);
+        /*EditText et = (EditText) findViewById(R.id.editText2);
         String text= et.getEditableText().toString();
         int goal = Integer.parseInt(text);
-        float currentAvg;
+        float currentAvg;*/
     }
 
 }
